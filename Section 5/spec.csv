@@ -1,0 +1,5 @@
+Salesforce Field,Csv Header
+Student_Name__c,StudentName
+Phone_Number__c,Phone
+Address__c,Student Address
+Email__c,Student Email

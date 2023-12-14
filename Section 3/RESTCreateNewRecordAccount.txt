@@ -1,0 +1,7 @@
+https://na139.salesforce.com/services/data/v49.0/sobjects/Account
+
+{
+   "Name": "Deepika Khanna",
+   "Site": "mytutorialrack.com",
+   "Phone": "7777778888"
+}

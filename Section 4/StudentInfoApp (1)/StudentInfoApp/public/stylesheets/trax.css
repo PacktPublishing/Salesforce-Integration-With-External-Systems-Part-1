@@ -1,0 +1,53 @@
+﻿.heading {
+  font: 40px "Cabin Sketch";
+  font-weight: bold;
+  text-align: right;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  background-color: #006633;
+}
+
+.logo {
+    margin-top: 100px;
+}
+
+.pageWrapper {
+    border: 1px solid #006633; 
+    background-color:white;
+}
+
+.bodyblock {
+    padding: 10px 10px 10px 10px;
+    font: 20px "Cabin Sketch";
+}
+
+.navLink {
+    color: #006633;
+}
+
+.panelBorder {
+    border-top: 0px;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding: 10px 10px 10px 10px;
+    height: 500px;
+    font-size:15px;
+}
+
+.mapbox {
+    padding:10px 10px 10px 10px;
+}
+
+.addresslabel {
+    font: 20px "Cabin Sketch";
+    font-weight: bold;
+    padding-right: 10px;
+    color:black;
+}
+
+.studentdetailheader {
+    text-align:right;
+    font-weight: bold;
+    padding-right: 10px;
+}

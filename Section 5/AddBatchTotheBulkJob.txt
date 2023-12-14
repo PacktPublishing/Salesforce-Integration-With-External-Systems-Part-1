@@ -1,0 +1,21 @@
+https://na139.salesforce.com/services/async/49.0/job/7504W00000K1fb6QAB/batch
+
+
+<sObjects xmlns="http://www.force.com/2009/06/asyncapi/dataload">
+    <sObject>
+        <type>Account</type>
+        <Name> Dummy 101 </Name>
+    </sObject>
+      <sObject>
+        <type>Account</type>
+        <Name> Dummy 102 </Name>
+    </sObject>
+      <sObject>
+        <type>Account</type>
+        <Name> Dummy 103 </Name>
+    </sObject>
+      <sObject>
+        <type>Account</type>
+        <Name> Dummy 104 </Name>
+    </sObject>
+</sObjects>

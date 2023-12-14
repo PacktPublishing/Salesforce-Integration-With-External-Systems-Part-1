@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:urn="urn:enterprise.soap.sforce.com">
+  <soapenv:Header>
+     <urn:SessionHeader>
+        <urn:sessionId>00D4W000000FDql!ARsAQNrUfETTQnROXFeBTbBf2tpwKv_8SvnA4uJjlob9MvUkSoOJt09mc1Y_er45qxJ24jeDsQ_hVjv.RRhY8L21W.EWW4gu</urn:sessionId>
+     </urn:SessionHeader>
+  </soapenv:Header>
+  <soapenv:Body>
+     <urn:query>
+        <urn:queryString>Select id,Address__c,Class_Enrolled__c,Phone_Number__c,School__r.Name from Student__c</urn:queryString>
+     </urn:query>
+  </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,1 @@
+https://na139.salesforce.com/services/data/v49.0/sobjects/School__c/a014W00000tqNZoQAM

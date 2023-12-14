@@ -1,0 +1,28 @@
+﻿extends layout
+block content
+    div.row
+        div.col-md-1
+
+        div.col-md-10(class='pageWrapper')
+            div.row
+                div.col-md-12(class='heading')
+                    | Student Info App
+            div.row
+                div.col-md-3(style='height:100%; padding-top:50px; text-align:center')
+                    img(src='images/mytutorialracklogo.png')
+                div.col-md-9(class='bodyblock')
+                    ul(class='nav nav-tabs')
+                      li(role='presentation' class='active')
+                        a(href='/') Home
+                      li(role='presentation')
+                        a(href='/students' class='navLink') Student Details
+                      li(role='presentation')
+                        a(href='/schools' class='navLink') Schools
+                      
+                    div(class='panelBorder')
+                        br
+                        br
+                        | Welcome to StudentInfoApp! Here you will see the list of students with there School Information
+        div.col-md-1
+                
+    

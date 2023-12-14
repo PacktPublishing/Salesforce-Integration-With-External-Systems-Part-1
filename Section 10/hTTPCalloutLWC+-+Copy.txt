@@ -1,0 +1,54 @@
+<template>
+    <lightning-card title="Realtime Currency Exchange Rate" icon-name="standard:currency"></lightning-card>
+    <lightning-layout multiple-rows="true" vertical-align="end">
+        <lightning-layout-item size="12" small-device-size="4" medium-device-size="2" padding="around-small">
+            <div class="slds-form-element">
+                <div class="slds-form-element__control">
+                    <lightning-combobox title="Select Currency" label="From Base Currency" value={fromCurrencyValue} placeholder="--Select--"
+                    options={options} onchange={handleFromCurrencyChange}></lightning-combobox>
+                </div>
+            </div>
+
+        </lightning-layout-item>
+       
+        <lightning-layout-item size="12" small-device-size="4" medium-device-size="2" padding="around-small">
+            <div class="slds-form-element">
+                <div class="slds-form-element__control">
+                    <lightning-combobox title="Select Currency" label="To Currency" value={toCurrencyValue} placeholder="--Select--"
+                    options={toCurrencyOptions} onchange={handleToCurrencyChange}></lightning-combobox>
+                </div>
+            </div>
+
+        </lightning-layout-item>
+        <lightning-layout-item size="12" small-device-size="4" medium-device-size="2" padding="around-small">
+           <lightning-button title="Currency Conversion" label="Conversion Rate" variant="brand" onclick={handleCurrencyConversion}></lightning-button>
+
+        </lightning-layout-item>
+        
+
+    </lightning-layout>
+    <br/><br/>
+    <template if:true={conversionData}>
+            <div class="slds-p-around_medium" id="modal_content-id-1">
+                <div style="font-size: 30px"><h1>Exchange Rates Information from <b>{fromCurrencyValue}</b> to <b>{toCurrencyValue}</b></h1></div>
+                <dl class="slds-list_horizontal slds-wrap">
+                    <dt class="slds-item_label slds-truncate" title="From Currency Name">From Currency Name</dt>
+                    <dd class="slds-item_detail slds-truncate"><b>{conversionData.From_Currency_Name}</b></dd>
+                    <dt class="slds-item_label slds-truncate" title="From Currency Code">From Currency Code</dt>
+                    <dd class="slds-item_detail slds-truncate"><b>{conversionData.From_Currency_Code}</b></dd>
+                    <dt class="slds-item_label slds-truncate" title="To Currency Name">To Currency Name</dt>
+                    <dd class="slds-item_detail slds-truncate"><b>{conversionData.To_Currency_Name}</b></dd>
+                    <dt class="slds-item_label slds-truncate" title="To Currency Code">To Currency Code</dt>
+                    <dd class="slds-item_detail slds-truncate"><b>{conversionData.To_Currency_Code}</b></dd>
+                    <dt class="slds-item_label slds-truncate" title="Exchange Rate">Exchange Rate</dt>
+                    <dd class="slds-item_detail slds-truncate"><b>{conversionData.Exchange_rate}</b></dd>
+
+
+                </dl>
+            </div>
+
+
+
+    </template>
+
+</template>

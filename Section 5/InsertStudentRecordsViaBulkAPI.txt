@@ -1,0 +1,35 @@
+https://na139.salesforce.com/services/async/49.0/job/7504W00000K1kAKQAZ/batch
+
+
+<sObjects xmlns="http://www.force.com/2009/06/asyncapi/dataload">
+    <sObject>
+       <Student_Name__c> Lovish Bajaj </Student_Name__c>
+       <Phone_Number__c>7890987777</Phone_Number__c>
+       <Email__c>lovish@yahoo.com</Email__c>
+       <Address__c>India</Address__c>
+    </sObject>
+     <sObject>
+       <Student_Name__c> Sahil Khan </Student_Name__c>
+       <Phone_Number__c>3130987777</Phone_Number__c>
+       <Email__c>sahil_khan@yahoo.com</Email__c>
+       <Address__c>Pakistan</Address__c>
+    </sObject>
+     <sObject>
+       <Student_Name__c> Neha Sidana </Student_Name__c>
+       <Phone_Number__c>7678987777</Phone_Number__c>
+       <Email__c>nehasidana@gmail.com</Email__c>
+       <Address__c>Canada</Address__c>
+    </sObject>
+     <sObject>
+       <Student_Name__c> Prerna Sharma</Student_Name__c>
+       <Phone_Number__c>7760987777</Phone_Number__c>
+       <Email__c>prernasharma112@yahoo.com</Email__c>
+       <Address__c>Austin,Texas</Address__c>
+    </sObject>
+     <sObject>
+       <Student_Name__c> Ishita Saxena </Student_Name__c>
+       <Phone_Number__c>7865432222</Phone_Number__c>
+       <Email__c>ishita56@yahoo.com</Email__c>
+       <Address__c>Dallas,Texas</Address__c>
+    </sObject>
+</sObjects>

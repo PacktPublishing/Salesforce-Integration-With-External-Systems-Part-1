@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:urn="urn:enterprise.soap.sforce.com"
+  xmlns:urn1="urn:sobject.enterprise.soap.sforce.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Header>
+     <urn:SessionHeader>
+        <urn:sessionId>00D4W000000FDql!ARsAQNrUfETTQnROXFeBTbBf2tpwKv_8SvnA4uJjlob9MvUkSoOJt09mc1Y_er45qxJ24jeDsQ_hVjv.RRhY8L21W.EWW4gu</urn:sessionId>
+     </urn:SessionHeader>
+     <urn:MruHeader>
+         <urn:updateMru>true</urn:updateMru>
+     </urn:MruHeader>
+  </soapenv:Header>
+  <soapenv:Body>
+    <urn:create>
+        <urn:sObjects xsi:type="urn1:School__c">
+           <Name>Good Shephard Public School</Name>
+           <Fees__c>200</Fees__c>
+           <School_Address__c>North Carolina</School_Address__c>
+           <School_Phone__c>6790985555</School_Phone__c>	
+        </urn:sObjects>
+          <urn:sObjects xsi:type="urn1:School__c">
+           <Name>Sacred Heart Convent School</Name>
+           <Fees__c>200</Fees__c>
+           <School_Address__c>India</School_Address__c>
+           <School_Phone__c>6754328888</School_Phone__c>	
+        </urn:sObjects>
+          <urn:sObjects xsi:type="urn1:School__c">
+           <Name>Nosegay Public School</Name>
+           <Fees__c>500</Fees__c>
+           <School_Address__c>Jaipur, India</School_Address__c>
+           <School_Phone__c>8907654444</School_Phone__c>	
+        </urn:sObjects>
+    </urn:create>
+  </soapenv:Body>
+</soapenv:Envelope>

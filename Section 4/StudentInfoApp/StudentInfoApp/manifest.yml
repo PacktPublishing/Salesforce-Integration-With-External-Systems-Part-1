@@ -1,0 +1,7 @@
+---
+applications:
+- name: Education -app
+  memory: 64M
+  instances: 1
+  path: .
+  command: node bin/www

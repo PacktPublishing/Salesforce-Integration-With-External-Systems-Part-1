@@ -1,0 +1,49 @@
+﻿extends layout
+block content
+    script(type="text/javascript", src="/javascripts/detailqueryhandler.js")
+    div.row
+        div.col-md-1
+
+        div.col-md-10(class='pageWrapper')
+            div.row
+                div.col-md-12(class='heading')
+                    | Student Info App
+            div.row
+                div.col-md-3(style='height:100%; padding-top:50px; text-align:center')
+                    img(src='images/mytutorialracklogo.png')
+                div.col-md-9(class='bodyblock')
+                    ul(class='nav nav-tabs')
+                      li(role='presentation' )
+                        a(href='/' class='navLink') Home
+                      li(role='presentation' class='active')
+                        a(href='/students') Student Details
+                      li(role='presentation')
+                        a(href='/schools' class='navLink') Schools
+                    div(class='panelBorder')
+                        br
+                        table#students(class='table table-hover')
+                            thead
+                                tr
+                                    th
+                                        | School Name
+                                    th
+                                        | School Fees
+                                    th
+                                        | School Address
+                                    th
+                                        | School Phone Number
+                                    th
+                                        | School Email
+                                    th
+                                        | 
+                            tbody
+                                each school in schools
+                                    tr
+                                        td= school.Name
+                                        td= school.Fees__c
+                                        td= school.School_Address__c
+                                        td= school.School_Phone__c
+                                        td= school.School_Email__c
+                                       
+                        table#schooldetails
+        div.col-md-1

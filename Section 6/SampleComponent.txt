@@ -1,0 +1,18 @@
+<aura:component controller="HttpCalloutCtrl" >
+    <aura:attribute name="ListOfCurrency" type="String[]"/>
+    <aura:attribute name="response" type="Map" />
+    <div class="slds-m-around-medium">
+    	<div class="slds-media__body">
+        	<p class="slds-page-header__title slds-truncate " title="Foreign Exchange Rates"> Foreign Exchange Rates by Deepika</p>
+            
+            <lightning:button variant="brand" label="Foreign Ex Rates" onclick="{!c.calloutCtrl}" />
+        </div>    
+    </div>
+    
+    <h3 class="slds-section-title--divider">Date: {!v.response.date}</h3>
+    <ul class="slds-list--dotted">
+    	<aura:iteration items="{!v.ListOfCurrency}" var="rateLst">
+        	<li>{!rateLst}</li>
+        </aura:iteration>
+    </ul>
+</aura:component>

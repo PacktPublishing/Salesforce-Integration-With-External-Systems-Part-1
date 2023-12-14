@@ -1,0 +1,10 @@
+https://na139.salesforce.com/services/data/v49.0/sobjects/Student__c
+
+<Student__c>
+    <Student_Name__c>John Abraham</Student_Name__c>
+    <Phone_Number__c>6789098888</Phone_Number__c>
+    <Email__c>john@gmail.com</Email__c>
+    <Address__c>Bombay,India</Address__c>
+    <School__c>a014W00000tqNe1QAE</School__c>
+
+</Student__c>

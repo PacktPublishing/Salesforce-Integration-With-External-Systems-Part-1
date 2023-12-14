@@ -1,0 +1,8 @@
+https://na139.salesforce.com/services/async/49.0/job
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<jobInfo xmlns="http://www.force.com/2009/06/asyncapi/dataload"> 
+	<operation>insert</operation> 
+	<object>Student__c</object> 
+	<contentType>XML</contentType> 
+</jobInfo>
